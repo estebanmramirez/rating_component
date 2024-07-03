@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+$white: white;
+$primary_orange: hsl(25, 97%, 53%);
+$light_grey: hsl(217, 12%, 63%);
+$dark_blue: hsl(213, 19%, 18%);
+$very_dark_blue: hsl(216, 12%, 8%);
+$font: "Overpass", sans-serif;
+
+body {
+    background-color: $very_dark_blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: $dark_blue;
+    height: 330px;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 200px;
+
+    .qualification--text {
+        color: $primary_orange;
+        text-align: center;
+        background-color: rgb(196, 192, 192);
+        border-radius: 25px;
+        width: 50%;
+        height: 30px;
+        margin: 0 auto;
+        padding-top: 12px;
+        font: {
+            family:$font;
+            size: 15px;
+        }
+    }
+
+    .container_title {
+        color: $white;
+        font-family: $font;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .container_subtitle {
+        color: $light_grey;
+        font-family: $font;
+        text-align: center;
+        margin: 50px;
+    }
+}
